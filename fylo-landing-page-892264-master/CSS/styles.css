@@ -1,0 +1,142 @@
+body {
+  text-align: center;
+}
+
+h1 {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 700;
+  color: #ffffff;
+}
+
+h2 {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 700;
+  color: #ffffff;
+}
+
+p {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 14px;
+  color: #ffffff;
+}
+
+
+/* Navigation */
+
+.navbar-collapse {
+text-align: left;
+}
+
+.myButton {
+	background-color:#36d3e8;
+	-moz-border-radius:29px;
+	-webkit-border-radius:29px;
+	border-radius:29px;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Open+sans;
+	font-size:20px;
+	padding:10px 80px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #2f6627;
+}
+.myButton:hover {
+	background-color:#5cbf2a;
+}
+.myButton:active {
+	position:relative;
+	top:1px;
+}
+
+/* Intro Section */
+
+#intro {
+  background-color: hsl(217, 28%, 15%);
+
+}
+
+.intro-box {
+  padding: 5%;
+}
+
+.intro-image {
+padding: 5%;
+}
+
+
+#curvy {
+background-color: hsl(217, 28%, 15%);
+
+
+}
+
+.curvy-box {
+  background-image: url("bg-curvy-desktop.svg");
+  height: 449px;
+  position: relative;
+  z-index: 1;
+}
+
+.container {
+  width:100%;
+  margin: auto;
+
+}
+
+.main-text {
+position: absolute;
+padding-bottom: 7%;
+z-index: 3;
+}
+
+.intro-head {
+  width: 50%;
+  margin: auto;
+  font-family: Raleway;
+  }
+
+.intro-text {
+  width: 35%;
+  margin: auto;
+  font-family: Open+Sans;
+  padding-bottom: 7%;
+  font-size: 16px;
+  }
+
+/* Features */
+
+#features {
+  background-color: hsl(218, 28%, 13%);
+  padding-top: 7%;
+
+}
+
+.feature-text {
+  padding-left: 15%;
+  padding-right: 15%;
+  padding-top: 3%;
+  padding-bottom: 3%;
+}
+
+.feature-image {
+  padding: 5%;
+}
+
+
+
+
+
+
+    @media (max-width: 1000px) {
+.intro-head {
+  font-size: 1.5rem;
+  width: 70%;
+  margin: auto;
+}
+
+@media (max-width: 1000px) {
+.intro-text {
+width: 70%;
+margin: auto;
+}
